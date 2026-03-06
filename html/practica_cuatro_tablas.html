@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Practica 4 Tablas</title>
+        <link rel="stylesheet" href="../css/style_theme.css" type="text/css">
+    </head>
+    <body>
+       <!--(header>h1)+(nav>ul>(li*8))+(main>(section>h2+p)*4)+footer>h5-->
+        <header>
+            <h1>Practica 4 Tablas</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../html/practica_uno.html">Formatos</a></li>
+                <li><a href="../html/practica_dos_listas.html">Listas</a></li>
+                <li><a href="../html/practica_tres_enlaces.html">Enlaces</a></li>
+                <li><a href="../html/practica_cuatro_tablas.html">Tablas</a></li>
+                <li><a href="../html/practica_seis_imagenes.html">Imagenes</a></li>
+                <li><a href="../html/practica_siete_audios.html">Audio</a></li>
+                <li><a href="../html/practica_cinco_videos.html">Video</a></li>
+                <li><a href="../html/practica_ocho_formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="box-oscuro" id="seccion_tabla_simple">
+                <h2>Tabla simple</h2>
+                <p>Tip sausage pig meatball. Sausage swine bresaola 
+                    pig chicken short pig kielbasa frankfurter. 
+                    Landjaeger pork cow shoulder bierschinken, pig 
+                    round pancetta tri-tip tip sausage short shank ham 
+                    jowl, tip cow boudin salami ribs. Cow tip 
+                    sopressata pig tip tri-tip andouillette, doner 
+                    capicola frankfurter, chuck andouille sopressata, 
+                    tip cow frankfurter, tongue frankfurter andouille 
+                    belly brisket pig tongue ham leberkas pig round, 
+                    ham cow tail kielbasa. Corned biltong brisket. 
+                    Beef pastrami bregenwurst, porchetta beef 
+                    andouille drumstick.</p>
+                    <table id="simple">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Direcciòn</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            	<td>Rosario</td>
+                            	<td>Gomez Farias</td>
+                            	<td>Calle de las flores #25 Col. Miraflores</td>
+                            	<td>charito.gomez@gmail.com</td>
+                            	<td>222 856 9610</td>
+                            </tr>
+                            <tr>
+                            	<td>Eduardo</td>
+                            	<td>Sánchez Macias</td>
+                            	<td>Rio Jalpan #3910 Col. San Manuel</td>
+                            	<td>lalo_macias@outlook.com</td>
+                            	<td>556 152 8213</td>
+                            </tr>
+                            <tr>
+                            	<td>Jorge</td>
+                            	<td>Gonzalez Perez</td>
+                            	<td>4 Norte #5620 Col. Centro</td>
+                            	<td>george565@gmail.com</td>
+                            	<td></td>
+                            </tr>
+                            <tr>
+                            	<td>Erika Sofia</td>
+                            	<td>Morales Franco</td>
+                            	<td>Calle Margaritas #532 Fraccionamiento Arboledas</td>
+                            	<td>eri.morales@hotmail.com</td>
+                            	<td>225 698 4215</td>
+                            </tr>
+                            <tr>
+                            	<td>Marcela</td>
+                            	<td>Villafan Mendoza</td>
+                            	<td>Avenida las Torres #7690 Colonia Tres Cruces</td>
+                            	<td>maris_villafan@outlook.com</td>
+                            	<td>552 014 5796</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+            </section>
+            <section>
+                <h2>Tabla colapsable</h2>
+                <p>Tip ham swine mignon pork, pork pig biltong cow 
+                    loin. Biltong frankfurter tip tri-tip ham pig 
+                    tongue pork doner sausage ham mignon pig pig 
+                    mignon turducken ham pig loin chicken. Capicola 
+                    boudin chop tri-tip flank, capicola ham 
+                    landjaeger, turducken mignon tenderloin venison 
+                    ham ham tip bierschinken. Fatback filet hamburger, 
+                    hamburger ball tail chicken pork. Ribs venison 
+                    bierschinken tip pig ham swine bresaola. Boudin 
+                    ham bresaola tip ribs. Leberkas pork round cow 
+                    tongue. Porchetta doner spare leberkas turkey tip 
+                    cow beef pancetta kielbasa pig pig ball 
+                    andouillette tip ham andouille sopressata tip ham 
+                    tip rump biltong, swine biltong drumstick, ham 
+                    beef leberkas landjaeger, tip beef frankfurter.</p>
+                <div class="desbordamiento">
+                    <table id="tabla2">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Direcciòn</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            	<td>Rosario</td>
+                            	<td>Gomez Farias</td>
+                            	<td>Calle de las flores #25 Col. Miraflores</td>
+                            	<td>charito.gomez@gmail.com</td>
+                            	<td>222 856 9610</td>
+                            </tr>
+                            <tr>
+                            	<td>Eduardo</td>
+                            	<td>Sánchez Macias</td>
+                            	<td>Rio Jalpan #3910 Col. San Manuel</td>
+                            	<td>lalo_macias@outlook.com</td>
+                            	<td>556 152 8213</td>
+                            </tr>
+                            <tr>
+                            	<td>Jorge</td>
+                            	<td>Gonzalez Perez</td>
+                            	<td>4 Norte #5620 Col. Centro</td>
+                            	<td>george565@gmail.com</td>
+                            	<td></td>
+                            </tr>
+                            <tr>
+                            	<td>Erika Sofia</td>
+                            	<td>Morales Franco</td>
+                            	<td>Calle Margaritas #532 Fraccionamiento Arboledas</td>
+                            	<td>eri.morales@hotmail.com</td>
+                            	<td>225 698 4215</td>
+                            </tr>
+                            <tr>
+                            	<td>Marcela</td>
+                            	<td>Villafan Mendoza</td>
+                            	<td>Avenida las Torres #7690 Colonia Tres Cruces</td>
+                            	<td>maris_villafan@outlook.com</td>
+                            	<td>552 014 5796</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <section class="box-oscuro">
+                <h2>Tabla zebra</h2>
+                <p>Tip ham braunschweiger ham jerky ham ham corned 
+                    biltong, tip pig bierschinken cow prosciutto 
+                    braunschweiger tip tri-tip, chicken tail pastrami 
+                    ham ham tip rump jerky shank cow porchetta 
+                    bregenwurst pig drumstick pig pig jerky venison 
+                    leberkas. Hock chicken tip braunschweiger tip 
+                    round landjaeger sausage. Shankle loin landjaeger 
+                    andouille ham ham tri-tip cow tenderloin, pig 
+                    landjaeger cow pancetta, venison steak pig chicken 
+                    braunschweiger. Andouille bacon tongue sausage 
+                    steak pig porchetta rump pig shankle 
+                    braunschweiger tip capicola flank beef landjaeger 
+                    jowl, ham pig pork filet chop. Ball cow ham ribs 
+                    bresaola, spare kielbasa ham bierschinken. 
+                    Hamburger ham pastrami.</p>
+                <div class="desbordamiento">
+                    <table id="tabla3">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Direcciòn</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            	<td>Rosario</td>
+                            	<td>Gomez Farias</td>
+                            	<td>Calle de las flores #25 Col. Miraflores</td>
+                            	<td>charito.gomez@gmail.com</td>
+                            	<td>222 856 9610</td>
+                            </tr>
+                            <tr>
+                            	<td>Eduardo</td>
+                            	<td>Sánchez Macias</td>
+                            	<td>Rio Jalpan #3910 Col. San Manuel</td>
+                            	<td>lalo_macias@outlook.com</td>
+                            	<td>556 152 8213</td>
+                            </tr>
+                            <tr>
+                            	<td>Jorge</td>
+                            	<td>Gonzalez Perez</td>
+                            	<td>4 Norte #5620 Col. Centro</td>
+                            	<td>george565@gmail.com</td>
+                            	<td></td>
+                            </tr>
+                            <tr>
+                            	<td>Erika Sofia</td>
+                            	<td>Morales Franco</td>
+                            	<td>Calle Margaritas #532 Fraccionamiento Arboledas</td>
+                            	<td>eri.morales@hotmail.com</td>
+                            	<td>225 698 4215</td>
+                            </tr>
+                            <tr>
+                            	<td>Marcela</td>
+                            	<td>Villafan Mendoza</td>
+                            	<td>Avenida las Torres #7690 Colonia Tres Cruces</td>
+                            	<td>maris_villafan@outlook.com</td>
+                            	<td>552 014 5796</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <h2>Tabla Hover</h2>
+                <p>Pork brisket tip turkey ribs tip tip cow t-bone 
+                    capicola, doner shankle ham tail short, sirloin 
+                    turkey turducken venison tip shoulder ham tri-tip 
+                    ham pig round meatball chicken, spare fatback 
+                    frankfurter cow shoulder pig meatball. Filet cow 
+                    tenderloin cow jowl, ribs shoulder bregenwurst. 
+                    Meatball ham tri-tip cow beef ham brisket ham pork 
+                    tenderloin braunschweiger tip ham short 
+                    braunschweiger, pancetta pig beef ham pig ribs 
+                    frankfurter, pig steak boudin ground drumstick ham 
+                    pig tenderloin tip venison. Turducken ribeye 
+                    pancetta andouille ham tongue cow capicola. 
+                    Biltong frankfurter pig fatback ham loin cow cow 
+                    ribs meatball pig shankle frankfurter cow 
+                    andouille cow pig pig filet leberkas. Loin 
+                    landjaeger brisket, ham ribs belly tip leberkas. 
+                    T-bone pig venison ham turducken braunschweiger 
+                    tip kielbasa ham tip pancetta tip chicken, tip 
+                    ribs shankle.</p>
+                <div class="desbordamiento">
+                    <table id="tabla4">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Direcciòn</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            	<td>Rosario</td>
+                            	<td>Gomez Farias</td>
+                            	<td>Calle de las flores #25 Col. Miraflores</td>
+                            	<td>charito.gomez@gmail.com</td>
+                            	<td>222 856 9610</td>
+                            </tr>
+                            <tr>
+                            	<td>Eduardo</td>
+                            	<td>Sánchez Macias</td>
+                            	<td>Rio Jalpan #3910 Col. San Manuel</td>
+                            	<td>lalo_macias@outlook.com</td>
+                            	<td>556 152 8213</td>
+                            </tr>
+                            <tr>
+                            	<td>Jorge</td>
+                            	<td>Gonzalez Perez</td>
+                            	<td>4 Norte #5620 Col. Centro</td>
+                            	<td>george565@gmail.com</td>
+                            	<td></td>
+                            </tr>
+                            <tr>
+                            	<td>Erika Sofia</td>
+                            	<td>Morales Franco</td>
+                            	<td>Calle Margaritas #532 Fraccionamiento Arboledas</td>
+                            	<td>eri.morales@hotmail.com</td>
+                            	<td>225 698 4215</td>
+                            </tr>
+                            <tr>
+                            	<td>Marcela</td>
+                            	<td>Villafan Mendoza</td>
+                            	<td>Avenida las Torres #7690 Colonia Tres Cruces</td>
+                            	<td>maris_villafan@outlook.com</td>
+                            	<td>552 014 5796</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <section class="box-oscuro">
+                <h2>Tabla colspan</h2>
+                <p>Pork brisket tip turkey ribs tip tip cow t-bone 
+                    capicola, doner shankle ham tail short, sirloin 
+                    turkey turducken venison tip shoulder ham tri-tip 
+                    ham pig round meatball chicken, spare fatback 
+                    frankfurter cow shoulder pig meatball. Filet cow 
+                    tenderloin cow jowl, ribs shoulder bregenwurst. 
+                    Meatball ham tri-tip cow beef ham brisket ham pork 
+                    tenderloin braunschweiger tip ham short 
+                    braunschweiger, pancetta pig beef ham pig ribs 
+                    frankfurter, pig steak boudin ground drumstick ham 
+                    pig tenderloin tip venison. Turducken ribeye 
+                    pancetta andouille ham tongue cow capicola. 
+                    Biltong frankfurter pig fatback ham loin cow cow 
+                    ribs meatball pig shankle frankfurter cow 
+                    andouille cow pig pig filet leberkas. Loin 
+                    landjaeger brisket, ham ribs belly tip leberkas. 
+                    T-bone pig venison ham turducken braunschweiger 
+                    tip kielbasa ham tip pancetta tip chicken, tip 
+                    ribs shankle.</p>
+                <div class="desbordamiento">
+                    <table class="tabla_style_1">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Direcciòn</th>
+                                <th colspan="2">Email</th>
+                                <th colspan="2">Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            	<td>Rosario</td>
+                            	<td>Gomez Farias</td>
+                            	<td>Calle de las flores #25 Col. Miraflores</td>
+                            	<td>charito.gomez@gmail.com</td>
+                                <td>charito.gomez@gmail.com</td>
+                            	<td>222 856 9610</td>
+                                <td>222 145 2658</td>
+                            </tr>
+                            <tr>
+                            	<td>Eduardo</td>
+                            	<td>Sánchez Macias</td>
+                            	<td>Rio Jalpan #3910 Col. San Manuel</td>
+                            	<td>lalo_macias@outlook.com</td>
+                                <td></td>
+                            	<td>556 152 8213</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                            	<td>Jorge</td>
+                            	<td>Gonzalez Perez</td>
+                            	<td>4 Norte #5620 Col. Centro</td>
+                            	<td>george565@gmail.com</td>
+                                <td>george565@gmail.com</td>
+                            	<td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                            	<td>Erika Sofia</td>
+                            	<td>Morales Franco</td>
+                            	<td>Calle Margaritas #532 Fraccionamiento Arboledas</td>
+                            	<td>eri.morales@hotmail.com</td>
+                                <td>eri.morales@hotmail.com</td>
+                            	<td>225 698 4215</td>
+                                <td>222 258 5574</td>
+                            </tr>
+                            <tr>
+                            	<td>Marcela</td>
+                            	<td>Villafan Mendoza</td>
+                            	<td>Avenida las Torres #7690 Colonia Tres Cruces</td>
+                            	<td>maris_villafan@outlook.com</td>
+                                <td></td>
+                            	<td>552 014 5796</td>
+                                <td>222 551 5581</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <section class="box-links alineacion-centrada">
+                <a href="../html/index.html" class="boton">Inicio</a> 
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por: David Salinas Puga</h5>
+        </footer>
+    </body>
+</html>
